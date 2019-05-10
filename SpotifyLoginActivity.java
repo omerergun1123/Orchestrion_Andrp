@@ -34,7 +34,7 @@ public class SpotifyLoginActivity extends AppCompatActivity {
                                     semSpotify.release();
                                     boolean hasAnAccountOnDatabase = false;
 									
-									///////////////////////////////////////////////////////////////////
+				     ///////////////////////////////////////////////////////////////////
                                     if(load("texts1") != null && sessionUser.name.equals(username) ){
                                         getUserID();
                                         if(!imageURLonDatabase.equals(imageURL))
