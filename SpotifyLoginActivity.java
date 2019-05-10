@@ -35,7 +35,7 @@ public class SpotifyLoginActivity extends AppCompatActivity {
                                     boolean hasAnAccountOnDatabase = false;
 									
 				     ///////////////////////////////////////////////////////////////////
-                                    if(load("texts1") != null && sessionUser.name.equals(username) ){
+                                    if(load("texts1") != null ){
                                         getUserID();
                                         if(!imageURLonDatabase.equals(imageURL))
                                             updateImageForUser();
