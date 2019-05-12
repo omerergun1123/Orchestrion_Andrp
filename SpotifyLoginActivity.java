@@ -47,7 +47,7 @@ public class SpotifyLoginActivity extends AppCompatActivity {
                                         
                                     }
                                     else{
-                                        Log.d("myTag", "Load is null");
+                                        Log.d("myTag", "Load is null"); 
 
                                     
                                         try {
