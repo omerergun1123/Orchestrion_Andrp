@@ -76,7 +76,7 @@ public class SpotifyLoginActivity extends AppCompatActivity {
                                             addUserToDatabase();
                                         }
 
-                                        userID = getUserID();
+                                        userID = getUserID(); 
                                         sessionUser = new User(username,userID,true,imageURL);
                                         sessionUser.setStarCount(userStarCount);
                                         sessionUser.setLatestVoteInMillis(latestVoteInMillis);
