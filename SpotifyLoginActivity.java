@@ -87,7 +87,7 @@ public class SpotifyLoginActivity extends AppCompatActivity {
                                     }
                                 }
                             });
-
+ 
                         }
                     }).start();
 
