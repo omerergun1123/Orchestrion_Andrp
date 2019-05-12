@@ -79,7 +79,7 @@ public class SpotifyLoginActivity extends AppCompatActivity {
                                         userID = getUserID();
                                         sessionUser = new User(username,userID,true,imageURL);
                                         sessionUser.setStarCount(userStarCount);
-                                        sessionUser.setLatestVoteInMillis(latestVoteInMillis);
+                                        sessionUser.setLatestVoteInMillis(latestVoteInMillis); 
                                         sessionUser.setTokenSpotify(ShowPlaylistActivity.token);
                                         save(sessionUser);
                                         startActivity(new Intent(SpotifyLoginActivity.this,HomePage.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
